@@ -17,14 +17,21 @@ class SiswaController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function index()
+    public function index(Request $request)
     {
-        $siswa = Student::all();
+        $query = Student::query();
+
+        if ($request->filled('cari')) {
+            $query->where('nama_lengkap', 'like', '%' . $request->cari . '%')
+                ->orWhere('nisn', 'like', '%' . $request->cari . '%');
+        }
+
         return view('admin/siswa/list', [
             'title' => 'Daftar Siswa',
-            'res' => $siswa->filter(request(['cari']))->paginate(30)->withQueryString(),
+            'res' => $query->paginate(30)->appends($request->query()), // Menggunakan appends() untuk mempertahankan query string
         ]);
     }
+
 
     /**
      * Show the form for creating a new resource.
