@@ -75,7 +75,7 @@
 </div>
 <style>
   .jumbo-bg {
-    background-image: url('/images/jumbotron.png');
+    background-image: url('/images/bg.png');
     background-position: bottom;
     background-repeat: no-repeat;
     background-attachment: fixed;
