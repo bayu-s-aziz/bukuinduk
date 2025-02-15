@@ -10,7 +10,7 @@ class Printer extends Controller
 {
     public function daftar_siswa()
     {
-        $res = Student::where('status', 'siswa')->get();
+        $res = Student::all();
         $pdf = PDF::loadView('printout/daftar_siswa', ['res' => $res]);
         return $pdf->download('Daftar Siswa.pdf');
     }
