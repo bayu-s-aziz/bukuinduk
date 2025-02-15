@@ -5,7 +5,7 @@
   </a>
   <ul class="list-unstyled ps-0 sticky-top">
     <li class="mb-3">
-        <a href="/dashboard" class="text-decoration-none btn btn-outline-info border-light text-dark w-100 text-start"><i class="bi bi-speedometer me-2"></i> Dashboard</a>
+      <a href="/dashboard" class="text-decoration-none btn btn-outline-info border-light text-dark w-100 text-start"><i class="bi bi-speedometer me-2"></i> Dashboard</a>
     </li>
     <li class="mb-3">
       <button class="btn btn-outline-info border-light text-dark  align-items-center rounded collapsed w-100 text-start" data-bs-toggle="collapse" data-bs-target="#kesiswaan-collapse" aria-expanded="false">
@@ -21,12 +21,12 @@
     </li>
     <li class="mb-3">
       <button class="btn btn-outline-info border-light align-items-center rounded collapsed text-dark w-100 text-start" data-bs-toggle="collapse" data-bs-target="#kelas-collapse" aria-expanded="false">
-        <i class="bi bi-house me-2"></i>Kelas
+        <i class="bi bi-house me-2"></i>Kelompok
       </button>
       <div class="collapse mt-2" id="kelas-collapse">
         <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
-          <li><a href="/admin/grup/create" class="link-dark rounded">Tambah Kelas</a></li>
-          <li><a href="/admin/grup" class="link-dark rounded">Daftar Kelas</a></li>
+          <li><a href="/admin/grup/create" class="link-dark rounded">Tambah Kelompok</a></li>
+          <li><a href="/admin/grup" class="link-dark rounded">Daftar Kelompok</a></li>
         </ul>
       </div>
     </li>

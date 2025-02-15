@@ -9,7 +9,7 @@
     @if (count($res) === 0)
     <div class="col-lg-9 text-center">
       <img src="/images/empty.jpg" alt="" class="img-fluid" width="200px">
-      <h2 class="text-capitalize text-warning fw-bold">belum ada data kelas</h2>
+      <h2 class="text-capitalize text-warning fw-bold">belum ada data kelompok</h2>
       <a href="/admin/grup/create" class="btn btn-primary btn-lg"><i class="bi bi-plus me-2"></i> Tambah Kelompok</a>
     </div>
     @else

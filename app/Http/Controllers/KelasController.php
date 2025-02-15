@@ -16,7 +16,7 @@ class KelasController extends Controller
     public function index()
     {
         return view('admin/kelas/list', [
-            'title' => 'Daftar Kelas',
+            'title' => 'Daftar Kelompok',
             'res' => Group::all()
         ]);
     }
@@ -29,7 +29,7 @@ class KelasController extends Controller
     public function create()
     {
         return view('admin/kelas/tambah', [
-            'title' => 'Tambah Kelas',
+            'title' => 'Tambah Kelompok',
         ]);
     }
 
@@ -47,7 +47,7 @@ class KelasController extends Controller
         $validated['uri'] = Str::random(35);
 
         Group::create($validated);
-        return redirect('/dashboard')->with('success', 'Kelas berhasil ditambahkan!');
+        return redirect('/dashboard')->with('success', 'Kelompok berhasil ditambahkan!');
     }
 
     /**
@@ -107,6 +107,6 @@ class KelasController extends Controller
             $item->update(['group_id' => NULL]);
         }
         $grup->delete();
-        return redirect('/dashboard')->with('success', 'Kelas berhasil dihapus');
+        return redirect('/dashboard')->with('success', 'Kelompok berhasil dihapus');
     }
 }
