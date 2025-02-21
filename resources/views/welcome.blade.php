@@ -7,7 +7,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
   <link rel="stylesheet" href="/css/login.css">
-  <link rel="icon" href="/images/tut wuri handayani.ico">
+  <link rel="icon" href="/images/logo.ico">
   <title>Buku Induk Siswa</title>
 </head>
 
@@ -21,8 +21,11 @@
     @endif
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
-        <div class="col-md-9 col-lg-6 col-xl-5">
-          <img src="/images/logo.png" class="img-fluid " alt="logo" style="width: 450px;">
+        <div class="col-md-9 col-lg-6 col-xl-5 text-center ">
+          <h4 class="fw-bold">RAUDHATUL ATHFAL</h4>
+          <h4 class="fw-bold">AL-ISLAM</h4>
+          <img src=" /images/logo.png" class="img-fluid py-4" alt="logo" style="width: 250px;">
+          <h5 class="fw-bold mt-2">Desa Gunungcupu - Kec. Sindangkasih - Kab. Ciamis</h5>
         </div>
         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
           <form action="/" method="POST">
@@ -47,7 +50,7 @@
             </div>
 
             <div class="mt-3 text-center">
-              <button type="submit" class="btn btn-primary btn-lg" style="width: 80%">Masuk</button>
+              <button type="submit" class="btn btn-success btn-lg" style="width: 80%">Masuk</button>
             </div>
 
           </form>
@@ -55,7 +58,7 @@
       </div>
     </div>
     <div
-      class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-primary">
+      class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-success">
       <!-- Copyright -->
       <div class="text-white mb-3 mb-md-0">
         Copyright © 2025.

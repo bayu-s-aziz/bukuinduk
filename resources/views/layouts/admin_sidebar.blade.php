@@ -1,6 +1,6 @@
 <div class="p-3 bg-white" style="width: 280px;">
   <a href="/" class="d-flex align-items-center pb-3 mb-3 link-dark text-decoration-none border-bottom">
-    <img src="/images/tut wuri handayani.png" alt="Logo" width="30px" height="auto" class="me-2">
+    <img src="/images/logo.png" alt="Logo" width="40px" height="auto" class="me-2">
     <span class="fs-6">Buku Induk Siswa</span>
   </a>
   <ul class="list-unstyled ps-0 sticky-top">
