@@ -5,10 +5,10 @@
   </a>
   <ul class="list-unstyled ps-0 sticky-top">
     <li class="mb-3">
-      <a href="/dashboard" class="text-decoration-none btn btn-outline-info border-light text-dark w-100 text-start"><i class="bi bi-speedometer me-2"></i> Dashboard</a>
+      <a href="/dashboard" class="text-decoration-none btn btn-outline-success border-light text-dark w-100 text-start"><i class="bi bi-speedometer me-2"></i> Dashboard</a>
     </li>
     <li class="mb-3">
-      <button class="btn btn-outline-info border-light text-dark  align-items-center rounded collapsed w-100 text-start" data-bs-toggle="collapse" data-bs-target="#kesiswaan-collapse" aria-expanded="false">
+      <button class="btn btn-outline-success border-light text-dark  align-items-center rounded collapsed w-100 text-start" data-bs-toggle="collapse" data-bs-target="#kesiswaan-collapse" aria-expanded="false">
         <i class="bi bi-person me-2"></i> Kesiswaan
       </button>
       <div class="collapse mt-2" id="kesiswaan-collapse">
@@ -20,7 +20,7 @@
       </div>
     </li>
     <li class="mb-3">
-      <button class="btn btn-outline-info border-light align-items-center rounded collapsed text-dark w-100 text-start" data-bs-toggle="collapse" data-bs-target="#kelas-collapse" aria-expanded="false">
+      <button class="btn btn-outline-success border-light align-items-center rounded collapsed text-dark w-100 text-start" data-bs-toggle="collapse" data-bs-target="#kelas-collapse" aria-expanded="false">
         <i class="bi bi-house me-2"></i>Kelompok
       </button>
       <div class="collapse mt-2" id="kelas-collapse">
@@ -31,7 +31,7 @@
       </div>
     </li>
     <li class="mb-3">
-      <button class="btn btn-outline-info border-light align-items-center rounded collapsed text-dark w-100 text-start" data-bs-toggle="collapse" data-bs-target="#tahun-collapse" aria-expanded="false">
+      <button class="btn btn-outline-success border-light align-items-center rounded collapsed text-dark w-100 text-start" data-bs-toggle="collapse" data-bs-target="#tahun-collapse" aria-expanded="false">
         <i class="bi bi-calendar me-2"></i>Tahun Ajaran
       </button>
       <div class="collapse mt-2" id="tahun-collapse">

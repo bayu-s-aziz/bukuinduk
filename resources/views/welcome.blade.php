@@ -22,9 +22,9 @@
     <div class="container-fluid h-custom">
       <div class="row d-flex justify-content-center align-items-center h-100">
         <div class="col-md-9 col-lg-6 col-xl-5 text-center ">
-          <h4 class="fw-bold">RAUDHATUL ATHFAL</h4>
-          <h4 class="fw-bold">AL-ISLAM</h4>
-          <img src=" /images/logo.png" class="img-fluid py-4" alt="logo" style="width: 250px;">
+          <h3 class="fw-bold">RAUDHATUL ATHFAL</h3>
+          <h3 class="fw-bold">AL-ISLAM</h3>
+          <img src=" /images/logo.png" class="img-fluid py-4" alt="logo" style="width: 200px;">
           <h5 class="fw-bold mt-2">Desa Gunungcupu - Kec. Sindangkasih - Kab. Ciamis</h5>
         </div>
         <div class="col-md-8 col-lg-6 col-xl-4 offset-xl-1">
@@ -61,7 +61,7 @@
       class="d-flex flex-column flex-md-row text-center text-md-start justify-content-between py-4 px-4 px-xl-5 bg-success">
       <!-- Copyright -->
       <div class="text-white mb-3 mb-md-0">
-        Copyright © 2025.
+        © 2025 Raudhatul Athfal Al-Islam
       </div>
       <!-- Copyright -->
 
